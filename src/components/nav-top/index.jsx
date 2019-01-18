@@ -1,13 +1,24 @@
 import React from 'react';
 import {Link} from 'react-router-dom'
-
+import Mtuil from '../../util/mm.jsx';
+import User from '../../server/userserver.jsx';
+const _user = new User();
+const _mm = new Mtuil();
 class NavTop extends React.Component{
   constructor(props){
     super(props);
+    this.state = {
+        username : _mm.getStorage('userInfo').username || '东大人'
     }
-    //�Ƴ���½
+    }
+    //推出登陆
     onLogout() {
-
+        _user.logout().then(res => {
+            _mm.removeStorage('userInfo');
+            window.location.href ='/login';
+        },errMsg =>{
+            _mm.errorTips(errMsg);
+        });
     }
   render(){
     return(
@@ -20,11 +31,13 @@ class NavTop extends React.Component{
           <li className="dropdown">
               <a className="dropdown-toggle"  href="/">
                         <i className="fa fa-user fa-fw"></i>
-                        <span>Welcome,Sir</span>
+                        {
+                            this.state.username? <span>Welcome,{this.state.username}</span> : <span>Welcome,SEUER</span>
+                        }
                         <i className="fa fa-caret-down"></i>
               </a>
                     <ul className="dropdown-menu dropdown-user">
-                        <li><a onClick={() => {this.onLogout}} href="#"><i className="fa fa-sign-out fa-fw"></i><span>Logout</span></a>
+                        <li><a onClick={() => {this.onLogout()}} href="#"><i className="fa fa-sign-out fa-fw"></i><span>Logout</span></a>
                   </li>
               </ul>
     

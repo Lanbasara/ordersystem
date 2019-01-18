@@ -93,6 +93,16 @@ devServer: {
   port : 8086,
   historyApiFallback:{
     index : '/dist/index.html'
+  },
+  proxy : {
+    '/manage' : {
+      target : 'http://admintest.happymmall.com',
+      changeOrigin : true
+    },
+    '/user/logout.do' : {
+      target : 'http://admintest.happymmall.com',
+      changeOrigin : true
+    }
   }
 }
 };
