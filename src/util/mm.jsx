@@ -41,8 +41,11 @@ class MUtil {
 
 
   }
+  successTips(successMsg){
+    alert(successMsg || "operation success")
+  }
   errorTips(errMsg){
-    alert(errMsg || "发生了错误")
+    alert(errMsg || "operation fail")
   }
   setStorage(name,data){
     let datatype = typeof data;
