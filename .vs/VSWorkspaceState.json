@@ -2,15 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\src",
+    "\\src\\components",
     "\\src\\components\\layout",
     "\\src\\components\\nav-side",
     "\\src\\components\\nav-top",
     "\\src\\components\\page-title",
     "\\src\\page",
-    "\\src\\page\\home",
-    "\\src\\server",
-    "\\src\\util"
+    "\\src\\page\\product",
+    "\\src\\page\\product\\category"
   ],
-  "SelectedNode": "\\src\\util\\mm.jsx",
+  "SelectedNode": "\\src\\components\\nav-side\\index.jsx",
   "PreviewInSolutionExplorer": false
 }

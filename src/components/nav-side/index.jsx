@@ -18,9 +18,7 @@ class NavSide extends React.Component{
                             <li>
                                 <NavLink to="/product" activeClassName="active-menu">Item management</NavLink>
                             </li>
-                            <li>
-                                <NavLink exact to="/product-category" activeClassName="active-menu">Category management </NavLink>
-                            </li>
+
                         </ul>
                     </li>
                     <li className="">

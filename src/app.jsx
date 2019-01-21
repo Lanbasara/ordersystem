@@ -8,6 +8,8 @@ import Login from './page/login/index.jsx';
 import Error from './page/error/index.jsx';
 import UserList from './page/user/index.jsx';
 import PageRouter from './page/product/router.jsx';
+import Order from './page/order/index.jsx';
+import OrderDetail from './page/order/detail.jsx';
 class App extends React.Component{
   render(){
     return(
@@ -18,9 +20,10 @@ class App extends React.Component{
            <Layout> 
            <Switch>
              <Route path="/" exact component = {Home}></Route>
-             <Route path="/product" exact component={PageRouter}></Route>
-             <Route path="/product-category" exact component={Home}></Route>
-             <Route path="/order" exact component={Home}></Route>
+             <Route path="/product" component={PageRouter}></Route>
+             <Route path="/order/index" exact component={Order}></Route>
+             <Route path="/order/detail/:orderNumber" exact component={OrderDetail}></Route>
+             <Redirect exact path="/order" to = "/order/index"/>
              <Route path="/user/index" component={UserList}></Route>
              <Redirect exact path="/user" to = "/user/index"/>
              <Route component={Error}></Route>
