@@ -1,6 +1,6 @@
 import React from 'react';
 import Simditor from 'simditor';
-import '../../../../Ordersystem/node_modules/simditor/styles/simditor.scss';
+import '../../../../ordersystem/node_modules/simditor/styles/simditor.scss';
 //jquery富文本编辑器
 class Richeditor extends React.Component{
   constructor(props){
