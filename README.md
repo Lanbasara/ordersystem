@@ -31,5 +31,7 @@ $ git clone git@github.com:Lanbasara/ordersystem.git
 $ yarn run (Automatically distinguish between development environment and online environment)
 ```
 # Online deployment
-* Configure node.js,yarn,git and nginx online
-* 
+* Configure node.js,yarn,git and nginx
+* Clone code 
+* Configure the nginx rules according to your server (admin.seulab.cn.conf and s.seulan.cn.conf have provided the core configuration, you can simply modify it)
+* Resolve domain name
