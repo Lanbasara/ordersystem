@@ -14,6 +14,7 @@ A background order management system based on React framework
  * Page title
  - [X] Pages:
  * Home
+ ![Home Page](https://github.com/Lanbasara/ordersystem/blob/master/1.png)
  * Login
  * Product
  * Order
