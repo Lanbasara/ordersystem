@@ -28,4 +28,8 @@ A background order management system based on React framework
  # Usage
 ```
 $ git clone git@github.com:Lanbasara/ordersystem.git
+$ yarn run (Automatically distinguish between development environment and online environment)
 ```
+# Online deployment
+* Configure node.js,yarn,git and nginx online
+* 
