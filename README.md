@@ -4,7 +4,7 @@ A background order management system based on React framework
  * Welcome to preview [admin.seulab.cn](admin.seulab.cn)
 
 # Features
-* Technology stack ： React+reat-route+webpack
+* Technology stack ： React+reat-route+webpack(ES6)
 * Elegant and beautiful : frontawesome
 * Real data driven : Data support [https://gitee.com/imooccode/happymmallwiki/wikis/Home](https://gitee.com/imooccode/happymmallwiki/wikis/Home)
 
