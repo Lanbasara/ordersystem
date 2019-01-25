@@ -27,5 +27,5 @@ A background order management system based on React framework
  
  # Usage
 ```
-git clone https://github.com/sosout/react-antd-dva.git
+$ git clone git@github.com:Lanbasara/ordersystem.git
 ```
