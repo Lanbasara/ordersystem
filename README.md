@@ -1,23 +1,37 @@
 # Ordersystem
-Online recruitment app with real-time chat function
+A background order management system based on React framework 
+
+ * Welcome to preview [admin.seulab.cn](admin.seulab.cn)
 
 # Features
-* Technology stack ： React+Express+Mongodb+websocket
-* Simple and beautiful style ： Antd Mobile
-* Real-time Chating : websocket
-* User Authentication
-* Dual MD5 password encryption
+* Technology stack ： React+reat-route+webpack(ES6)
+* Elegant and beautiful : frontawesome
+* Real data driven : Data support [https://gitee.com/imooccode/happymmallwiki/wikis/Home](https://gitee.com/imooccode/happymmallwiki/wikis/Home)
 
-# Components
+# Modules
+ - [X] Common modules:
+ * Navigation Bar
+ * Page title
  - [X] Pages:
+ * Home
  * Login
- ![Login Page](https://github.com/Lanbasara/Recruitment-web-app/blob/master/Screenshot/login.jpg)
- * Register
- ![Register Page](https://github.com/Lanbasara/Recruitment-web-app/blob/master/Screenshot/register.jpg)
- * List
- ![BossList Page](https://github.com/Lanbasara/Recruitment-web-app/blob/master/Screenshot/bosslist.jpg)
- ![GeniusList Page](https://github.com/Lanbasara/Recruitment-web-app/blob/master/Screenshot/genius%20list.jpg)
-  * Chating
- ![Chating Page](https://github.com/Lanbasara/Recruitment-web-app/blob/master/Screenshot/realtime%20chat.jpg)
-  * Center and Logout
- ![Center Page](https://github.com/Lanbasara/Recruitment-web-app/blob/master/Screenshot/me.jpg)
+ * Product
+ * Order
+ * Error
+  - [X] Common tools:
+ * Pagination
+ * Richeditor
+ * Tablelist
+ * Uploader
+ * Interface call
+ 
+ # Usage
+```
+$ git clone git@github.com:Lanbasara/ordersystem.git
+$ yarn run (Automatically distinguish between development environment and online environment)
+```
+# Online deployment
+* Configure node.js,yarn,git and nginx
+* Clone code 
+* Configure the nginx rules according to your server (admin.seulab.cn.conf and s.seulan.cn.conf have provided the core configuration, you can simply modify it)
+* Resolve domain name
