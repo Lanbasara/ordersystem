@@ -12,11 +12,14 @@ A background order management system based on React framework
  - [X] Common modules:
  * Navigation Bar
  * Page title
+  ![Home Page](https://github.com/Lanbasara/ordersystem/blob/master/1.png)
  - [X] Pages:
  * Home
  * Login
  * Product
+  ![Product List](https://github.com/Lanbasara/ordersystem/blob/master/2.png)
  * Order
+  ![Order List](https://github.com/Lanbasara/ordersystem/blob/master/3.png)
  * Error
   - [X] Common tools:
  * Pagination
